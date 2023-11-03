@@ -1,70 +1,21 @@
-###################
-What is CodeIgniter
-###################
+# Cloning the Project for Unity
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+To set up this Unity project on your machine, you'll want to follow these steps:
 
-*******************
-Release Information
-*******************
+```bash
+# Clone the repository via the terminal
+git clone https://github.com/your-username/your-repository-name.git
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+# Change directory into the project folder
+cd your-repository-name
+```
 
-**************************
-Changelog and New Features
-**************************
+After cloning, do the following:
+1. Launch Unity Hub. If it's not yet installed, grab it from the Unity Download Page.
+2. Add the Project. Inside Unity Hub, navigate to the 'Projects' tab, hit 'Add', and choose the directory where you cloned the project.
+3. Open the Project. Find your project in the 'Projects' list within Unity Hub and click to open it in the Unity Editor.
+4. Import Assets. Unity might take a bit to import assets and set up the project files for the first time.
+5. Open the Main Scene. Go to the 'Scenes' folder within the Project window in Unity and double-click the main scene to open it.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+> “Every great journey begins with a single step. Your journey into Unity development starts here, and every challenge is an opportunity to learn and grow. Embrace the process, and don't be afraid to make mistakes. After all, the best way to learn game development is to simply start making games. So go ahead, press play, and see where this adventure takes you. Happy coding!”
 
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
