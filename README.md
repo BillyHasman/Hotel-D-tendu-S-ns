@@ -1,21 +1,25 @@
-# Cloning the Project for Unity
+# Getting Started with the Hospitality Management Project
 
-To set up this Unity project on your machine, you'll want to follow these steps:
+This project is a web-based hotel room booking system, crafted with CodeIgniter3 and featuring a comprehensive admin and user account system, all operating on a MySQL database backend. 
+
+## How to Clone and Set Up
+
+To clone this project and set it up for development or testing on your local machine, follow these steps:
 
 ```bash
-# Clone the repository via the terminal
-git clone https://github.com/your-username/your-repository-name.git
+# Clone the repository into your desired directory
+git clone https://github.com/BillyHasman/Hotel-Detendu-Sans.git
 
-# Change directory into the project folder
-cd your-repository-name
+# Change into the project directory
+cd Hotel-Detendu-Sans
+
+# Install any dependencies or run initial scripts
+# This may vary based on the project specifics
 ```
+Once cloned, you'll need to set up your environment:
+1. Configure your database settings in application/config/database.php with your MySQL credentials.
+2. Run the database migrations if available, or import your .sql file into your MySQL database to set up the required tables.
+3. Update base URL in application/config/config.php to match your local or production environment.
+4. Test the application by starting your local development server or using tools like XAMPP/WAMP/MAMP to serve the project.
 
-After cloning, do the following:
-1. Launch Unity Hub. If it's not yet installed, grab it from the Unity Download Page.
-2. Add the Project. Inside Unity Hub, navigate to the 'Projects' tab, hit 'Add', and choose the directory where you cloned the project.
-3. Open the Project. Find your project in the 'Projects' list within Unity Hub and click to open it in the Unity Editor.
-4. Import Assets. Unity might take a bit to import assets and set up the project files for the first time.
-5. Open the Main Scene. Go to the 'Scenes' folder within the Project window in Unity and double-click the main scene to open it.
-
-> “Every great journey begins with a single step. Your journey into Unity development starts here, and every challenge is an opportunity to learn and grow. Embrace the process, and don't be afraid to make mistakes. After all, the best way to learn game development is to simply start making games. So go ahead, press play, and see where this adventure takes you. Happy coding!”
-
+> “Dive into the world of web development with a practical hospitality management application. This CodeIgniter3 project is a fantastic way to get hands-on experience with real-world web application development scenarios. Get your local server running, navigate through the admin panel, and see how users would interact with a live booking system. Your journey into the intricacies of web development starts now!”
