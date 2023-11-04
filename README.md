@@ -22,5 +22,5 @@ Once cloned, you'll need to set up your environment:
 3. Update base URL in application/config/config.php to match your local or production environment.
 4. Test the application by starting your local development server or using tools like XAMPP/WAMP/MAMP to serve the project.
 
-## Words of Encouragement
+## Time to Launch
 > “Dive into the world of web development with a practical hospitality management application. This CodeIgniter3 project is a fantastic way to get hands-on experience with real-world web application development scenarios. Get your local server running, navigate through the admin panel, and see how users would interact with a live booking system. Your journey into the intricacies of web development starts now!”
